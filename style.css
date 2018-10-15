@@ -1,0 +1,53 @@
+body {
+    background-image: url(wood_back1.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 64px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(4, 71, 71);
+    background-color: rgba(156, 174, 174, 0.6);
+    width: 350px;
+}
+h3 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 25px;
+    text-decoration-line: underline;
+    background-color: rgba(82, 133, 133,0.4);
+    width: 150px;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Charmonman', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 450px;
+    background-color: rgba(220, 225, 221, 0.3);
+    cursor: pointer;
+}
+
+input, button {
+    font-size: 20px;
+    font-family: 'Slabo 27px', serif;
+    text-transform: capitalize;
+}
+
+input {
+    width: 250px;
+    margin-bottom: 16px;
+}
+
+button {
+    margin-right: 8px;
+}
+
+.done {
+    text-decoration-line: line-through;
+}
+
+.delete_button{
+    margin-left: 16px;
+}
